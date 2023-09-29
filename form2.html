@@ -7,16 +7,33 @@
     <link rel="stylesheet" href="style2.css">
 </head>
 <body>
-    <h2>Registration</h2>
-    <form action="mypage.php" method="get">
-        <input type="text" name="user" id="" placeholder="First Name" required><br><br>
-        <input type="text" name="user" id="" placeholder="Last Name" required><br><br>
-        <input type="password" name="pass" id="password" placeholder="Password" required><br><br>
-        <input type="password" name="pass" id="password" placeholder="Confirm Password" required><br><br>
-        <input type="checkbox" name="" id=""> I accept <a href="http://">Terms of Use</a>
-        & <a href="http://">Privacy Policy</a><br><br>
-        <button type="submit">Register Now</button><br>
-        <p>Already have an account? <a href="form1.html">Sign in</a></p>
-    </form>
+    <div class="form">
+        <h2>Registration</h2>
+
+        <div class="name">
+            <input type="text" name="user" id="" placeholder="First Name" required>
+            <input type="text" name="user" id="" placeholder="Last Name" required>
+        </div>
+
+        <div class="password">
+            <input type="password" name="pass" id="password" placeholder="Password" required>
+            <input type="password" name="pass" id="password" placeholder="Confirm Password" required>
+        </div>
+        
+        <div class="check">
+            <input type="checkbox" name="" id=""> I accept <a href="#" target="_blank">Terms of Use</a>
+            & <a href="#" target="_blank">Privacy Policy</a>
+        </div>
+
+        <div class="button">
+            <button type="submit">Register Now</button>
+        </div>
+
+        <div class="account">
+            <p>Already have an account? <a href="form1.html">Sign in</a></p>
+        </div>
+
+    </div>
+
 </body>
 </html>
